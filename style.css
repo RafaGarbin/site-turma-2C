@@ -1,3 +1,22 @@
+*{margin: 0;
+padding: 0;}
+
 header{
     background-color: #CA4747;
+    COLOR: #530A0A;
+}
+.cabeçalho {
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 0;
+}
+.cabeçalho-titulo { font-size: 36px;
+
+}
+.cabeçalho-lista{ font-size: 26px;
+    padding: 12px;
+
+}
+.cabeçalho-item { display: inline-block;
+                margin: 0 16px;
 }
